@@ -1938,3 +1938,11 @@ pip.venv/pyvenv.cfg
 .venv/Lib/site-packages/tomli-2.0.1.dist-info/WHEEL
 .venv/Scripts/py.test.exe
 .venv/Scripts/pytest.exe
+__pycache__/api.cpython-38.pyc
+__pycache__/settings.cpython-38.pyc
+.idea/.gitignore
+.idea/modules.xml
+.idea/Pet_frends_REST_API.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml

@@ -3,7 +3,7 @@ import requests
 
 class PetFriends:
     def __init__(self):
-        self.base_url = 'petfriends.skillfactory.ru'
+        self.base_url = 'https://petfriends.skillfactory.ru/'
         
     def get_api_key(self, email, password):
         
@@ -12,11 +12,11 @@ class PetFriends:
             'password': password
         }
         
-        res = requests.get(self.base_url+'/api/key', headers=headers)
+        res = requests.get(self.base_url+'api/key', headers=headers)
         status = res.status_code
-        result = ''
+        result = ""
         try:
-            result = res.json
+            result = res.json()
         except:
             result = res.text
         
