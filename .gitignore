@@ -1946,3 +1946,6 @@ __pycache__/settings.cpython-38.pyc
 .idea/vcs.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/inspectionProfiles/Project_Default.xml
+tests/__pycache__/test_pet_friends.cpython-38-pytest-7.4.3.pyc
+tests/__pycache__/test_pet_friends.cpython-38-pytest-7.4.3.pyc
+tests/__pycache__/test_pet_friends.cpython-38-pytest-7.4.3.pyc
